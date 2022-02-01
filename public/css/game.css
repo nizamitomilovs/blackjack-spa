@@ -1,0 +1,128 @@
+
+
+.wrapper {
+    margin: 0 auto;
+    width: 1000px;
+}
+
+h3 {
+    margin: 5px 0;
+    text-align: center;
+}
+
+.game {
+    background: transparent url('/bg.png') 0 0 no-repeat;
+    border-radius: 5px;
+    color: #333;
+    font: 14px/17px Helvetica, Arial, Verdana, sans-serif;
+    height: 550px;
+    margin: 0 auto;
+    position: relative;
+    width: 1000px;
+}
+
+div#dscore {
+    position: absolute;
+    bottom: 30px;
+}
+
+div#pscore {
+    position: absolute;
+    bottom: 15px;
+}
+
+.phand, .dhand {
+    font-weight: 700;
+
+    position: relative;
+    top: -122px;
+    white-space: nowrap;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.card  {
+    z-index: 0;
+    top: 182px;
+    left: auto;
+    right: auto;
+    background: #FFF;
+    border: 6px solid #FFF;
+    border-radius: 5px;
+    box-shadow: 0 0 1px #000;
+    display: inline-block;
+    height: 106px;
+    margin: 0 5px;
+    position: relative;
+    width: 79px;
+}
+
+.down {
+    background: #B20000 url('/img/semFace.png') center center no-repeat !important;
+}
+
+#result {
+    position: absolute;
+    bottom: 0;
+}
+
+.actions {
+    margin: 15px 0 0 0;
+    text-align: center;
+}
+
+a, .btn{
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    padding: 4px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    color: #333333;
+    text-shadow: 0 1px 1px rgb(255 255 255 / 75%);
+}
+
+input#wager { margin-left: 5px; position: relative; top: 4px }
+
+#money, #money:before {
+    border-radius: 5px;
+    bottom: 0;
+    height: 55px;
+    padding: 7px;
+    position: absolute;
+    right: 0;
+    width: 250px;
+}
+
+#money {
+    border: 2px solid #FFC926;
+}
+
+#money:before {
+    background: #333;
+    content: '';
+    opacity: 0.8;
+}
+
+#cash, #bank {
+    color: #FFF;
+    font: 700 18px/20px Helvetica, Arial, Verdana, sans-serif;
+    margin: 12px 0;
+    position: relative;
+    text-shadow: 1px 1px #000;
+    z-index: 1;
+}
+
+#alert {
+    margin: 0 auto;
+    opacity: 0.95;
+    position: relative;
+    text-align: center;
+    top: 34.5%;
+    width: 500px;
+    z-index: 0;
+}
